@@ -1,46 +1,45 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 40px;
-  background-color: #f0f2f5;
-  color: #333;
+  background-color: #f3ecf8; /* pastel lavender */
 }
 
 .container {
   background-color: #ffffff;
   padding: 30px;
-  max-width: 850px;
+  max-width: 800px;
   margin: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   text-transform: uppercase;
-  color: #2c3e50;
-  margin-bottom: 10px;
+  color: #5d3b6d;
 }
 
 .sub-header {
   text-align: center;
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  color: #444;
 }
 
 .contact {
   text-align: center;
-  color: #0077cc;
+  color: #9347aa;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
 h2 {
-  color: #1a1a1a;
-  font-size: 20px;
-  border-left: 5px solid #0077cc;
+  color: #7a5195;
+  font-size: 18px;
+  border-left: 4px solid #b565d9;
   padding-left: 10px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 ul {
@@ -48,12 +47,7 @@ ul {
 }
 
 li {
-  margin-bottom: 6px;
-}
-
-p {
-  line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .bold {
@@ -63,4 +57,9 @@ p {
 .small {
   font-size: 14px;
   color: #555;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
 }
